@@ -9,7 +9,6 @@ header {
 	height: 160px;
 }
 
-
 .container {
     width: 1000px;
     margin: 0 auto;
@@ -29,13 +28,11 @@ header {
   	line-height: 1.2;
     text-align: left;
     padding-right: 20px;
-    
+ }
 
-}
 .topbar-left ul li {
 	display: inline;	 
 	 padding: 3px;
-
 }
 
 .logo {
@@ -43,7 +40,6 @@ header {
 	clear:left;
 	margin-left: 24px;
     padding: 40px 0px;
-
 }
 .logo p {
   font-size: 12px;
@@ -51,7 +47,6 @@ header {
   color: #999999;
   line-height: 1;
   text-align: left;
-
 }
 
 .menu {
@@ -64,14 +59,72 @@ header {
     text-align: left;    
     padding-right: 26px;
     padding-top: 28px;
-
-
 }
+
 .menu ul li {
 	display: inline;
 	padding: 8px;
 	border-bottom: 1px solid #ebebeb;
 }
+
 .menu ul li a:hover	{
 	color:#ff9900;
 }
+
+.slider {
+	width: 100%;
+	background-color: #ebebeb;
+	height: 450px;
+}
+
+.munitor {
+	float: left;
+	clear: left;
+    padding-left: 38px;
+    padding-top: 16px; 
+}
+
+.slider-right {
+	float: right;
+	clear: right;
+	padding-right: 29px;
+	padding-top: 87px;
+}
+
+.slider-right h1 {
+  font-size: 36px;
+  font-family: "Georgia";
+  line-height: 1.2;
+  text-align: left;
+
+}
+.slider-right p {
+  font-size: 16px;
+  font-family: "Georgia";
+  color: #999999;
+  line-height: 1.4;
+  text-align: left;
+
+}
+.slider-right h3 {
+	font-size: 16px;
+  	font-family: "Georgia";
+	color: #ffffff;
+    line-height: 2;
+    width: 140px;
+  	height: 31px;
+  	background-color: #55415f;
+  	border-radius: 6px;
+}
+.left-arrow {
+    float: left;
+    clear: left;
+    margin-top: -222px;	
+}
+.right-arrow {
+	float: right;
+	clear: right;
+	margin-top: -228px;	
+}
+
+
