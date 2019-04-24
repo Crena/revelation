@@ -211,7 +211,7 @@ footer {
 footer h4 {
 	font-size: 18px;
     font-family: "Georgia";
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     line-height: 1;
     text-align: left;
 }
@@ -223,7 +223,7 @@ footer h4 {
 	clear: left;
 	font-size: 12px;
     font-family: "Georgia";
-    color: rgb(128, 125, 119);
+    color:#807d77;
     line-height: 1.6;
     text-align: left;
     padding-left: 25px;
@@ -231,45 +231,92 @@ footer h4 {
 .blog-post h5 {
 	font-size: 13px;
     font-family: "Georgia";
-    color: rgb(159, 129, 169);
+    color:  #9f80a9;
     line-height: 1.2;
 }
 .blog-post p {
 	font-size: 10px;
     font-family: "Georgia";
-    color: rgb(128, 125, 119);
+    color: #807d77;
     line-height: 1.2;
-
 }
 .link-block {
 	float: left;
-	padding-left:90px;
+	padding-left:50px;
 	font-size: 12px;
     font-family: "Georgia";
-    color: rgb(159, 128, 169);
+    color: #9f80a9;
     line-height: 2;
     text-align: left;
 }
-
+.link-block h4 {
+	padding-left: 40px;
+}
 .company-details {
 	float: left;
-	padding-left: 87px;
+	padding-left: 120px;
 	font-size: 12px;
     font-family: "Georgia";
-    color: rgb(128, 125, 119);
+    color:  #807d77;
     line-height: 1.6;
     text-align: left;
 
 }
 .newsletter {
 	float: right;
-	display: inline;
+	padding-left: 75px;
+}
+input[type=text]{
+	background-color: #353535;
+	width: 225px;
+    height: 31px;
+    border: none;
+    border-radius: 5px;
+}
+input[type=Email] {
+	background-color: #353535;
+    width: 225px;
+    height: 31px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+input[type=submit]{
+    width: 80px;
+    height: 31px;
+    background-color: #9f81a9;
+    border:none;
+    margin-top: 7px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Georgia";
+}
+.social-icons img {
+	background-color: #353535;
+    border-radius: 14px;
+    padding: 11px;
+    margin-top: 35px;
 }
 .copy-right {
 	float: left;
 	color: left;
 	font-size: 12px;
     font-family: "Georgia";
-    color: rgb(128, 125, 119);
+    color:#666666;
+    line-height: 1;
+}
+.copy-right h3 {
+	float: left;
+	clear: left;
+	padding-top: 30px;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.copy-right p {
+	float: right;
+	clear: right;
+	padding-left: 490px;
+    padding-top: 30px;
 }
 
