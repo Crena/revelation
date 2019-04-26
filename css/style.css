@@ -1,47 +1,60 @@
 body {
-	margin: 0;
-	background-color: #ffffff;
+    margin: 0;
+    background-color: #ffffff;
 }
+
 header {
-	width: 100%;
-	margin: 0 auto;
-	height: 160px;
+    width: 100%;
+    margin: 0 auto;
+    height: 160px;
 }
+
 footer {
-	float: left;
-	width: 100%;
-	margin: 0 auto;
-	background-color: #222222;
-	height: 340px;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #222222;
+    height: 340px;
 }
+
 .container {
     width: 1000px;
     margin: 0 auto;
 }
+
 .top-bar {
-	width: 100%;
-	height: 31px;
-	background-color:#55415f;
+    width: 100%;
+    height: 31px;
+    background-color: #55415f;
 }
+
 .topbar-left {
-	float: right;
+    float: right;
     font-size: 11px;
-  	font-family: "Georgia";
-  	color: #ffffff;
-  	line-height: 1.2;
+    font-family: "Georgia";
+    color: #ffffff;
+    line-height: 1.2;
     text-align: left;
     padding-right: 20px;
- }
+}
+
 .topbar-left ul li {
-    display: inline;	 
+    display: inline;
     padding: 3px;
 }
+
+.topbar-left a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .logo {
-	float: left;
-	clear:left;
-	margin-left: 24px;
+    float: left;
+    clear: left;
+    margin-left: 24px;
     padding: 40px 0px;
 }
+
 .logo p {
     font-size: 12px;
     font-family: "Georgia";
@@ -49,48 +62,61 @@ footer {
     line-height: 1;
     text-align: left;
 }
+
 .menu {
-	float: right;
-	clear: right;
-	font-size: 12px;
+    float: right;
+    clear: right;
+    font-size: 12px;
     font-family: "Georgia";
     color: #55415f;
     line-height: 1;
-    text-align: left;    
+    text-align: left;
     padding-right: 26px;
     padding-top: 28px;
 }
+
 .menu ul li {
-	display: inline;
-	padding: 8px;
-	border-bottom: 1px solid #ebebeb;
+    display: inline;
+    padding: 8px;
+    border-bottom: 1px solid #ebebeb;
 }
-.menu ul li a:hover	{
-	color:#ff9900;
+
+.menu ul li a {
+    text-decoration: none;
+    color: #55415f;
 }
+
+.menu ul li a:hover {
+    color: #ff9900;
+}
+
 .slider {
-	width: 100%;
-	background-color: #ebebeb;
-	height: 450px;
+    width: 100%;
+    background-color: #ebebeb;
+    height: 450px;
 }
+
 .munitor {
-	float: left;
-	clear: left;
+    float: left;
+    clear: left;
     padding-left: 38px;
-    padding-top: 16px; 
+    padding-top: 16px;
 }
+
 .slider-right {
-	float: right;
-	clear: right;
-	padding-right: 29px;
-	padding-top: 87px;
+    float: right;
+    clear: right;
+    padding-right: 29px;
+    padding-top: 87px;
 }
+
 .slider-right h1 {
     font-size: 36px;
     font-family: "Georgia";
     line-height: 1.2;
     text-align: left;
 }
+
 .slider-right p {
     font-size: 16px;
     font-family: "Georgia";
@@ -98,6 +124,7 @@ footer {
     line-height: 1.4;
     text-align: left;
 }
+
 .slider-right h3 {
     font-size: 16px;
     font-family: "Georgia";
@@ -107,216 +134,242 @@ footer {
     height: 31px;
     background-color: #55415f;
     border-radius: 6px;
+    padding-left: 12px;
+    box-sizing: border-box;
 }
+
+.slider-right a {
+    text-decoration: none;
+}
+
 .left-arrow {
     float: left;
     clear: left;
-    margin-top: -222px;	
+    margin-top: -222px;
 }
+
 .right-arrow {
-	float: right;
-	clear: right;
-	margin-top: -228px;	
+    float: right;
+    clear: right;
+    margin-top: -228px;
 }
-.services  p {
-	font-size: 13px;
+
+.services p {
+    font-size: 13px;
     font-family: "Georgia";
     color: #807d77;
-    line-height: 1.8;	
+    line-height: 1.8;
 }
+
 .services {
-	float: left;
-	padding-top: 12px;
+    float: left;
+    padding-top: 12px;
 }
+
 .services h3 {
     font-size: 18px;
-  	font-family: "Georgia";
-  	color: #55415f;
+    font-family: "Georgia";
+    color: #55415f;
     line-height: 1.8;
     border-bottom: 1px solid #d7d7d7;
 }
+
+.services a {
+    text-decoration: none;
+}
+
 .services img {
-	padding-left: 45px;
+    padding-left: 45px;
 }
-.services-1 {
-	float: left;
-	clear: left;
-	padding-left: 53px;
+
+.services-elements {
+    float: left;
+    padding-left: 48px;
 }
-.services-2 {
-	float: left;
-	padding-left: 45px;
-}
-.services-3 {
-	float: left;
-	padding-left: 45px;
-}
-.services-4 {
-	float: right;
-	padding-left: 30px;
-}
+
 .shout {
-	float: left;
+    float: left;
     font-size: 18px;
     font-family: "Georgia";
-    color:#4c4c4c;
+    color: #4c4c4c;
     line-height: 1.6;
     text-align: center;
     padding-left: 28px;
     padding-top: 25px;
 }
+
 .latest-work {
-	float: left;
-	display: inline;
-	padding-bottom: 30px;
+    float: left;
+    display: inline;
+    padding-bottom: 30px;
 }
+
 .latest-work h4 {
-	font-size: 18px;
+    font-size: 18px;
     font-family: "Georgia";
     color: #7f7d77;
     line-height: 1.2;
     text-align: left;
 }
+
 .latest-work p {
-	font-size: 13px;
+    font-size: 13px;
     font-family: "Georgia";
-    color:#807d77;
+    color: #807d77;
     line-height: 1.6;
     text-align: left;
 }
+
 .latest-work a {
-	font-size: 13px;
+    font-size: 13px;
     font-family: "Georgia";
     color: #55415f;
     line-height: 1.2;
     text-align: left;
 }
-.latest-work-1 {
-	float: left;
-	clear: left;
-	padding-left: 25px;
+
+.latest-column {
+    float: left;
+    padding-left: 25px;
 }
-.latest-work-2 {
-	float: left;
-	padding-left: 25px;
+
+.latest-column:first-child {
+    clear: left;
 }
-.latest-work-3 {
-	float: left;
-	padding-left: 25px;
-}
-.latest-work-4 {
-	float: right;
-	padding-left: 25px;
-}
+
 footer h4 {
-	font-size: 18px;
+    font-size: 18px;
     font-family: "Georgia";
     color: #ffffff;
     line-height: 1;
     text-align: left;
 }
+
 .footer {
-	float: left;
+    float: left;
 }
+
 .blog-post {
-	float: left;
-	clear: left;
-	font-size: 12px;
+    float: left;
+    clear: left;
+    font-size: 12px;
     font-family: "Georgia";
-    color:#807d77;
+    color: #807d77;
     line-height: 1.6;
     text-align: left;
     padding-left: 25px;
 }
+
 .blog-post h5 {
-	font-size: 13px;
+    font-size: 13px;
     font-family: "Georgia";
-    color:  #9f80a9;
+    color: #9f80a9;
     line-height: 1.2;
 }
-.blog-post p {
-	font-size: 10px;
+
+.blog-post h6 {
+    font-size: 10px;
     font-family: "Georgia";
     color: #807d77;
     line-height: 1.2;
 }
+
 .link-block {
-	float: left;
-	padding-left:50px;
-	font-size: 12px;
+    float: left;
+    padding-left: 50px;
+    font-size: 12px;
     font-family: "Georgia";
     color: #9f80a9;
     line-height: 2;
     text-align: left;
 }
-.link-block h4 {
-	padding-left: 40px;
+
+.link-block ul {
+    list-style: none;
 }
+
+.arrow {
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+}
+
+.link-block h4 {
+    padding-left: 40px;
+}
+
 .company-details {
-	float: left;
-	padding-left: 120px;
-	font-size: 12px;
+    float: left;
+    padding-left: 120px;
+    font-size: 12px;
     font-family: "Georgia";
-    color:  #807d77;
+    color: #807d77;
     line-height: 1.6;
     text-align: left;
 
 }
+
 .newsletter {
-	float: right;
-	padding-left: 75px;
+    float: right;
+    padding-left: 75px;
 }
-input[type=text]{
-	background-color: #353535;
-	width: 225px;
-    height: 31px;
-    border: none;
-    border-radius: 5px;
-}
-input[type=Email] {
-	background-color: #353535;
+
+.input-field {
+    background-color: #353535;
     width: 225px;
     height: 31px;
     border: none;
     border-radius: 5px;
-    margin-top: 7px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
-input[type=submit]{
+
+.submit-btn {
     width: 80px;
     height: 31px;
     background-color: #9f81a9;
-    border:none;
+    border: none;
     margin-top: 7px;
     border-radius: 5px;
     color: #ffffff;
     font-size: 13px;
     font-family: "Georgia";
 }
+
 .social-icons img {
-	background-color: #353535;
-    border-radius: 14px;
-    padding: 11px;
-    margin-top: 35px;
+    padding: 2px;
+    margin-top: 15px;
 }
+
 .copy-right {
-	float: left;
-	color: left;
-	font-size: 12px;
+    float: left;
+    color: left;
+    font-size: 12px;
     font-family: "Georgia";
-    color:#666666;
+    color: #666666;
     line-height: 1;
 }
+
 .copy-right h3 {
-	float: left;
-	clear: left;
-	padding-top: 30px;
+    float: left;
+    clear: left;
+    padding-top: 30px;
     padding-left: 14px;
     font-size: 12px;
 }
+
 .copy-right p {
-	float: right;
-	clear: right;
-	padding-left: 490px;
+    float: right;
+    clear: right;
+    padding-left: 490px;
     padding-top: 30px;
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+    }
+}
