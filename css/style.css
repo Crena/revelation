@@ -96,7 +96,29 @@ footer {
     height: 450px;
 }
 
-.munitor {
+/** Override BXslider
+===================================*/
+.bx-wrapper {
+    background-color: unset;
+    box-shadow: none;
+    border: none;
+}
+
+.bx-wrapper .bx-next {
+
+    background: url('../images/right.png') no-repeat;
+    right: -12px;
+}
+
+.bx-wrapper .bx-prev {
+
+    background: url('../images/left.png') no-repeat;
+}
+
+/** Override BXslider
+===================================*/
+
+.monitor {
     float: left;
     clear: left;
     padding-left: 38px;
@@ -140,18 +162,6 @@ footer {
 
 .slider-right a {
     text-decoration: none;
-}
-
-.left-arrow {
-    float: left;
-    clear: left;
-    margin-top: -222px;
-}
-
-.right-arrow {
-    float: right;
-    clear: right;
-    margin-top: -228px;
 }
 
 .services p {
