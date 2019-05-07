@@ -6,7 +6,7 @@
 
   	![ img-1] (images/relevation-psd.png)
 
-  This website is a learning project .Build on using html5 ,css3 ,jquery and some javascript it is responsive works in  tablets and phones
+  This website is a learning project. Build on using html5, css3, jquery  it is responsive works in  tablets and phones
 
   Some images of the project after it is finished on a chrome browser
 
